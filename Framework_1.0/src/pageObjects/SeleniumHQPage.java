@@ -45,5 +45,9 @@ public class SeleniumHQPage extends ParentPageObject {
 		System.out.println(bNavigated);
 		return bNavigated;
 	}
+	
+	public void fEchoPage(){
+		System.out.println("On selenium HQ Page");
+	}
 
 }
