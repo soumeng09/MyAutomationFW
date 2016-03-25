@@ -8,10 +8,10 @@
     </classes>
   </test>
   
-  <test name="testChrome">
+  <!-- <test name="testChrome">
   <parameter name="browser" value="Chrome"></parameter>
     <classes>
       <class name="mainPackage.NewTestFirefox"/>
     </classes>
-  </test>
+  </test> -->
 </suite> 
