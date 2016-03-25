@@ -41,6 +41,7 @@ public class NewTestFirefox {
 //		 
 //	  }
 	  
+	  System.out.println("Test comment added from remote git.");
 	  ParentPageObject pgAetna = new aetnaPage(scriptDriver);
 	  if(pgAetna.fWaitForLoad())
 		  pgAetna.fIterateLinks();
