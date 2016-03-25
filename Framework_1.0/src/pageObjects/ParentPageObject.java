@@ -100,5 +100,9 @@ public class ParentPageObject {
 	    }
 	    
 	}
+	
+	public void fTakeScreenShot(){
+		
+	}
 
 }
