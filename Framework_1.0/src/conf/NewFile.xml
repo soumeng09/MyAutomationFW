@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" verbose="3" parallel="tests">
+  <test name="testFF">
+  <parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="mainPackage.NewTestFirefox"/>
+    </classes>
+  </test>
+  
+  <test name="testChrome">
+  <parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="mainPackage.NewTestFirefox"/>
+    </classes>
+  </test>
+</suite> 
