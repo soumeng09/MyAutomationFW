@@ -9,7 +9,7 @@
   </test>
   
   <test name="testChrome">
-  <parameter name="browser" value="FF"></parameter>
+  <parameter name="browser" value="Chrome"></parameter>
     <classes>
       <class name="mainPackage.NewTestFirefox"/>
     </classes>
