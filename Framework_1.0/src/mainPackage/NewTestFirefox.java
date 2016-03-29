@@ -43,6 +43,7 @@ public class NewTestFirefox {
 	  
 	  System.out.println("Test comment added from remote git.");
 	  System.out.println("Test comment added from local master branch.");
+	  System.out.println("Test comment added from local Second branch.");
 	  ParentPageObject pgAetna = new aetnaPage(scriptDriver);
 	  if(pgAetna.fWaitForLoad())
 		  pgAetna.fIterateLinks();
