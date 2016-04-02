@@ -45,6 +45,7 @@ public class NewTestFirefox {
 	  System.out.println("Test comment added from local master branch.");
 	  System.out.println("Modified comment from local Second branch.");
 	  System.out.println("Modified comment from local First branch.");
+	  System.out.println("Modified comment from local Branch1-master.");
 	  ParentPageObject pgAetna = new aetnaPage(scriptDriver);
 	  if(pgAetna.fWaitForLoad())
 		  pgAetna.fIterateLinks();
